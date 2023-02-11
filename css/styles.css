@@ -1,0 +1,224 @@
+:root {
+    --navyblue:#2E2F42;
+    --slate: #434455; 
+    --iris: #4D5AE5;
+    --ocean: #404BBF;
+    --cornflower: #E7E9FC;
+    --white: #FFFFFF;
+}
+body {
+    /* NAVY BLUE Overlays Shadows Headings*/ 
+    color: #2E2F42;
+    font-family: 'Roboto', sans-serif;
+  }
+  .list {
+      list-style: none;
+  }
+  .link {
+    text-decoration: none;
+  }
+  .link:hover,
+  .link:focus {
+  color: var(--ocean);
+  } 
+  .cornflower {
+  /* CORNFLOWER Accent color Hairlines Subtle backgrounds*/
+  color: var(--cornflower);
+  }
+  .iris {
+  /* IRIS CTAs Focused Active states Links*/
+  color: var(--iris);
+  }
+  .slate {
+  /* SLATE Body text*/
+  color: var(--slate); 
+  }
+  /*------------- header -------------*/
+  .header {
+  }
+  .header-navigation {
+  }
+  .header-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  /* identical to box height, or 133% */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: inherit;
+  }
+  .header-list {
+  }
+  .header-item {
+  }
+  .header-link {
+  /* Body Medium */
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.02em;
+  /* NAVY BLUE Overlays Shadows Headings*/ 
+  color: inherit;
+  }
+  
+  .header-link:hover,
+  .header-link:focus {
+  color: var(--ocean);
+  } 
+  
+  .header-contacts {
+    /* Body */
+  
+  
+  font-size: 16px;
+  line-height: 1.5;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.02em;
+  }
+  /*------------- section -------------*/
+  .section-header {
+  /* Header 2 */
+
+  font-size: 36px;
+  line-height: 1.11;
+  /* identical to box height, or 111% */
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  }
+  
+  .item-header {
+  /* Header 3 */
+  
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  /* identical to box height, or 120% */
+  letter-spacing: 0.02em;
+  /* NAVY BLUE Overlays Shadows Headings*/ 
+  color: var(--navyblue);
+  }
+  
+  .text-center {
+  text-align: center;
+  }
+  
+  .section-body {
+    /* Body */
+    font-size: 16px;
+    line-height: 1.5;
+    /* or 150% */
+    letter-spacing: 0.02em;
+  }
+  
+  .button {
+    cursor: pointer;
+  }
+  .button:hover,
+  .button:focus {
+  background-color: var(--ocean);
+  color: var(--white);
+  } 
+  /*------------- hero -------------*/
+  .hero {
+  }
+  .hero-text {
+    /* Header 1 */
+  font-size: 56px;
+  line-height: 1.07;
+  /* or 107% */
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  }
+  .hero-button {
+  /* Button Text */
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  /* identical to box height, or 150% */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  background-color: var(--iris);
+  }
+  /*------------- visually-hidden -------------*/
+  .visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      margin: -1px;
+      border: 0;
+      padding: 0;
+      
+      white-space: nowrap;
+      clip-path: inset(100%);
+      clip: rect(0 0 0 0);
+      overflow: hidden;
+    }
+    /* ------------------skills---------------- */
+  
+    .skills {
+  }
+  .skills-list {
+  }
+  
+  .skills-item {
+  
+  }
+  
+  
+    /* ------------------gallery---------------- */
+  .gallery {
+  }
+  .gallery-list {
+  }
+  .gallery-item {
+  }
+    /* ------------------team---------------- */
+  .team {
+  }
+  .team-list {
+  }
+  .team-item {
+  }
+    /* ------------------footer---------------- */
+  .footer {
+  }
+  .footer-logo {
+    font-family: 'Raleway', sans-serif;
+    
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    /* NAVY BLUE Overlays Shadows Headings*/ 
+    color: inherit
+  }
+  .footer-moto {
+  }
+
+/* ---------------Portfolio------------- */
+.btn {
+
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+/* IRIS */
+color: #4D5AE5;
+background-color: #F4F4FD;
+}
